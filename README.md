@@ -1,7 +1,7 @@
-# Amazon_Vine_Analysis
+## Amazon_Vine_Analysis
 
 
-Overview of the analysis:
+# Overview of the analysis:
 
 Picked a dataset from the Amazon Review datasets.
 
@@ -25,29 +25,40 @@ Upload the transformed data into the appropriate tables and run queries in pgAdm
 
 
 
-Purpose:
+# Purpose:
 Determining if having a paid Vine review makes a difference in the percentage of 5-star reviews.
 
 Results: 
 
-How many Vine reviews and non-Vine reviews were there?
-Vine:1207
-Non-Vine:97839
+* How many Vine reviews and non-Vine reviews were there?
+  
+  * Vine:1207
+  * Non-Vine:97839
 
-How many Vine reviews were 5 stars? 
+* How many Vine reviews were 5 stars? 
 
-509
+  * 509
 
-How many non-Vine reviews were 5 stars?
+* How many non-Vine reviews were 5 stars?
 
-45858
+  * 45858
 
-What percentage of Vine reviews were 5 stars? 
+* What percentage of Vine reviews were 5 stars? 
 
-42%
+  * 42%
 
-What percentage of non-Vine reviews were 5 stars?
+* What percentage of non-Vine reviews were 5 stars?
 
-46%
+  * 46%
+<img width="1136" alt="Screen Shot 2022-06-22 at 10 27 54 AM" src="https://user-images.githubusercontent.com/99001393/175070562-de29b763-196a-4386-8170-a737d4352c35.png">
 
-Is there any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+### Is there any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. 
+
+Based on the data there is no positivity bias for paid vine reviews. That is evident based on the percentage of 5 star reviews per the divided groups (vine vs. nonvine).
+
+
+
+Additional analysis that you could do with the dataset to support.
+
+Additional analysis can be performed on 5-star reviews to obtain statistical distribution of each group(vine vs non-vine in jupyter notebook. 
+
